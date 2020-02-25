@@ -33,7 +33,7 @@ function displayPosition(companyName, jobTitle, Description){
 function displaySkill(name, bool){
     for(let i= 0; i < skill.length; i++){
         name= skill[i];
-        if(name == "Riding" || name == "Stool Making"){
+        if(name === "Riding" || name === "Stool Making"){
             bool = true;
             console.log("BAM: " + skill[i]);
         }
